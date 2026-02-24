@@ -33,7 +33,7 @@
 
       <div class="chat" id="chat">
         <div class="msg asst"><div class="bubble">
-          Hallo! Das ist ein Mockup. Stell mir eine Frage zum Studienthema oder bitte um eine Zusammenfassung.
+          Hallo! Wie kann ich dir helfen?
         </div></div>
       </div>
 
@@ -70,9 +70,14 @@
 
     function mockReply(userText){
       const canned = [
-        "Danke! Als nächstes könntest du die wichtigsten Punkte in 3 Bulletpoints zusammenfassen.",
-        "Verstanden. Soll ich das in einfachen Worten erklären oder eher detailliert?",
-        "Gute Frage. Welche Zielgruppe meinst du (Laien, Studierende, Fachpublikum)?"
+    "Der durchschnittliche Stromverbrauch eines 2-Personen-Haushalts liegt bei etwa 2.500–3.500 kWh pro Jahr, abhängig von Wohnform und Gerätenutzung.",
+    "Die größten Stromverbraucher im Haushalt sind oft Kühlschrank, Gefriergerät, Waschmaschine, Trockner und Unterhaltungselektronik.",
+    "Beim Heizen macht die Raumtemperatur einen großen Unterschied: Eine Reduktion um 1°C kann den Heizenergieverbrauch um etwa 6 % senken.",
+    "LED-Lampen verbrauchen bis zu 80 % weniger Strom als herkömmliche Glühbirnen und halten deutlich länger.",
+    "Standby-Verluste können sich über das Jahr summieren. Mehrfachsteckdosen mit Schalter helfen, unnötigen Verbrauch zu vermeiden.",
+    "Bei steigenden Energiepreisen lohnt sich ein Vergleich von Stromtarifen sowie die Prüfung, ob ein Wechsel möglich ist.",
+    "Ein Energieausweis gibt Hinweise auf die energetische Qualität einer Wohnung oder eines Hauses.",
+    "Möchtest du eher Tipps zum Stromsparen, zum Heizen oder zu den Kosten?"
       ];
       return canned[Math.floor(Math.random() * canned.length)];
     }
